@@ -2,8 +2,8 @@ import pandas as pd
 
 df = pd.read_excel('Localization.xls', 'Localization')
 
-start = 420
-end = 424
+start = 434
+end = 448
 
 addPointSub = 1
 pageSub = 0
