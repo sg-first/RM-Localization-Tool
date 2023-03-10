@@ -7,7 +7,7 @@ for i in range(len(allText)):
     allText[i] = allText[i].replace('】 ', '】')
 
 textMap = {}
-hashVal = 128
+hashVal = 427
 
 def parseDialogue(t):
     keyEndSub = t.find('：')

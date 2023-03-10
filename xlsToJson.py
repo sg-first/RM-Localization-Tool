@@ -3,8 +3,8 @@ import pandas as pd
 df = pd.read_excel('Localization.xls', 'Localization')
 wrapNum = 44
 
-start = 127
-end = 143
+start = 315
+end = 357
 col = 'cn'
 
 def addQuotes(s):
