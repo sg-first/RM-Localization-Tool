@@ -28,5 +28,6 @@ def autoWrap(s:str):
 
 for index, row in df.iterrows():
     if index >= start and index <= end:
-        row[col] = autoWrap(row[col])
-        print(addQuotes(row['key']) + ':' + addQuotes(row[col]) + ',')
+        if row[col] != '':
+            row[col] = autoWrap(row[col])
+            print(addQuotes(row['key']) + ':' + addQuotes(row[col]) + ',')
